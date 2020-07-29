@@ -2,8 +2,8 @@ package com.example.omsdemo.interfaces.rest.v1.factory;
 
 import com.example.omsdemo.domain.model.OMSFilledOrder;
 import com.example.omsdemo.domain.model.OMSPendingOrder;
-import com.example.omsdemo.interfaces.rest.v1.dto.OMSPendingOrderDTO;
 import com.example.omsdemo.interfaces.rest.v1.dto.OMSFilledOrderDTO;
+import com.example.omsdemo.interfaces.rest.v1.dto.OMSPendingOrderDTO;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

@@ -25,7 +25,8 @@ public class OMSOrderService {
     @Autowired
     private OMSOrderInventory inventory;
 
-    // A robust order system would have considered synchronization when getting
+    // A robust order management system would have considered synchronization
+    // when getting and setting pending orders but this project is for demo only
     public void fulfill(OMSPendingOrder pendingOrder) {
         String symbol = pendingOrder.getSymbol();
         Set<OMSPendingOrder> inventoryOrders = inventory.getPendingOrdersBySymbol(symbol);

@@ -1,16 +1,14 @@
 package com.example.omsdemo.interfaces.rest.v1;
 
-import com.example.omsdemo.domain.model.OMSPendingOrder;
 import com.example.omsdemo.domain.service.OMSOrderService;
-import com.example.omsdemo.interfaces.rest.v1.dto.OMSPendingOrderDTO;
 import com.example.omsdemo.interfaces.rest.v1.dto.OMSFilledOrderDTO;
+import com.example.omsdemo.interfaces.rest.v1.dto.OMSPendingOrderDTO;
 import com.example.omsdemo.interfaces.rest.v1.factory.OMSOrderFactory;
 import com.google.common.collect.Sets;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
